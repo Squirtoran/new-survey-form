@@ -1,0 +1,65 @@
+body {
+    background-image: url(https://i.pinimg.com/originals/98/4d/97/984d972565c4982228d6682e7afad1bb.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family: perpetua;
+    color: white;
+    font-size: 20px;
+}
+
+h1, p {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 0;
+    background-color: rgba(100, 100, 255, 0.8);
+    box-shadow: 0 0 3px;
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+p {
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+form {
+    background-color: rgba(100, 100, 255, 0.8);
+    width: 80vw;
+    margin: 0 auto;
+    box-shadow: 0 0 3px;
+}
+
+fieldset {
+    border: transparent;
+    border-radius: 20%;
+}
+
+label {
+    display: block;
+    margin-bottom: 3px;
+}
+
+input, textarea {
+    width: 98.75%
+}
+
+select {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 3px;
+}
+
+.inline {
+    width: unset;
+    margin-right: 1em;
+}
+
+input[type="submit"] {
+    width: 100%;
+    margin-top: 5px;
+}
