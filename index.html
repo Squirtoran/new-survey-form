@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1 id="title">Pokemon League Signup</h1>
+            <p id="description">Defeat all eight gyms, challenge the Pokemon League, and become a master.</p>
+        </header>
+        <form id="survey-form">
+            <fieldset>
+                <label id="name-label">Name <input type="text" name="name" id="name" placeholder="Enter your name" required></label>
+                <label id="email-label">Email <input type="email" name="email" id="email" placeholder="example@email.com" required></label>
+                <label id="number-label">Age <input type="number" name="age" id="number" min="10" max="99" placeholder="Enter your age" required></label>
+
+                <label>How much experience do you have with battling so far?</label>
+                <select id="dropdown">
+                    <option value="">Select level of experience</option>
+                    <option value="1">No experience</option>
+                    <option value="2">A little experience</option>
+                    <option value="3">Some experience</option>
+                    <option value="4">A lot of experience</option>
+                    <option value="5">Master-level skills</option>
+                </select>
+                <label>What starter Pokemon are you hoping to choose?</label>
+                <label><input type="radio" class="inline" name="attribute" value="1" checked>Bulbasaur</label></label>
+                <label><input type="radio" class="inline" name="attribute" value="2">Charmander</input></label>
+                <label><input type="radio" class="inline" name="attribute" value="3">Squirtle</input></label>
+
+                <label>What is your favorite part about being a Pokemon trainer?</label>
+                <select id="dropdown">
+                    <option value="">Select option</option>
+                    <option value="1">Battling</option>
+                    <option value="2">Collecting Pokemon</option>
+                    <option value="3">Traveling</option>
+                    <option value="4">Making friends</option>
+                </select>
+
+                <label>What do you hope to do on your journey?</label>
+                <label><input type="checkbox" class="inline" value="conquer-the-eight-gyms">Conquer the eight gyms</label>
+                <label><input type="checkbox" class="inline" value="become-the-champion">Become the champion</label>
+                <label><input type="checkbox" class="inline" value="complete-the-pokedex">Complete the Pokedex</label>
+                <label><input type="checkbox" class="inline" value="learn-more-about-myself">Learn more about myself</label>
+                <label><input type="checkbox" class="inline" value="meet-new-people">Meet new people</label>
+
+                <label>Any comments or concerns?</label>
+                <textarea rows="5" cols="50" placeholder="Enter your comments here..."></textarea>
+                <input type="submit" id="submit" value="Submit">
+            </fieldset>
+        </form>
+    </body>
+</html>
